@@ -641,32 +641,6 @@ def main():
 
 main()
 
-#<────────────────────────────────────────────────────────────────────────────────>
 
-#Script para insertar datos a sqlite (informe ubicaciones)
-# connection = sqlite3.connect(DATABASE_PATH)
-# cursor = connection.cursor()
-
-# cursor.execute('''
-#           INSERT INTO ocupacion (fecha, ubicaciones_ocupadas) 
-#            VALUES ('2025-03-04', 65)
-#     ''')
-# connection.commit()   # Guarda los cambios realizados en la base de datos.   
-# connection.close()    # Cierra la conexion a la base de datos.
-
-#<────────────────────────────────────────────────────────────────────────────────>
-
-#Script para borrar datos de sqlite (informe ubicaciones)
-# connection = sqlite3.connect(DATABASE_PATH)
-# cursor = connection.cursor()
-# cursor.execute('''
-#     DELETE 
-#     FROM ocupacion
-#     WHERE id = 355
-#     ''')
-# connection.commit()   # --> Guarda los cambios realizados en la base de datos.
-# connection.close()    # --> Cierra la conexion a la base de datos.        
-
-#<────────────────────────────────────────────────────────────────────────────────>    
 
 
